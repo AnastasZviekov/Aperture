@@ -171,7 +171,9 @@ nav ul li:last-of-type a {
     border-radius: 10px;
 }
 
-
+.new_section h4 {
+    color: green;gi
+}
 
 
 
