@@ -166,6 +166,10 @@ nav ul li:last-of-type a {
     max-width:1200px;
 }
 
+.new_section a{
+    background-color: orange;
+    border-radius: 10px;
+}
 
 
 
