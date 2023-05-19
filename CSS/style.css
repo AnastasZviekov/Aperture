@@ -1,7 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff'),
+    url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{font-family: 'poppinsregular';}
+
 header {
     padding:24px 0;
     background-color: #181818;
-
 }
 
 header .container{
@@ -27,9 +45,6 @@ header nav ul li:first-of-type {
     margin-right: 24px;
 }
 header nav li a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
@@ -41,9 +56,6 @@ nav ul li:first-of-type a {
 }
 
 nav ul li:last-of-type a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-decoration:none;
@@ -71,9 +83,6 @@ nav ul li:last-of-type a {
 }
 
 .main_banner h3 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -82,18 +91,12 @@ nav ul li:last-of-type a {
 }
 
 .main_banner h1 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 54px;
     line-height: 59px;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 .main_banner p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
@@ -116,9 +119,6 @@ nav ul li:last-of-type a {
 }
 
 .help_with_photography h2{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 40px;
     line-height: 42px;
     color: #FFFFFF;
@@ -126,9 +126,6 @@ nav ul li:last-of-type a {
 }
 
 .help_with_photography h3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     color: #C0C0C0;
@@ -138,9 +135,6 @@ nav ul li:last-of-type a {
 .help_with_photography a {
     background-color:#FFFFFF;
     border-radius: 14px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.4px;
@@ -172,7 +166,36 @@ nav ul li:last-of-type a {
 }
 
 .new_section h4 {
-    color: green;gi
+    color: green;
+}
+
+.information_block{
+    background-image: url("../images/bg_image_mountain.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.information_block article {
+    max-width: 298px;
+    margin-right: 62px;
+}
+
+
+.information_block article h3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.information_block article p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
 
 
