@@ -227,3 +227,32 @@ nav ul li:last-of-type a {
     line-height: 20px;
     color: #C0C0C0;
 }
+
+.hymalaya_section{
+    background-image: url("../images/bg_hymalaya.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.hymalaya_section article {
+    max-width: 254px;
+    margin-right: 119px;
+}
+
+.hymalaya_section article h3{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hymalaya_section article p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
