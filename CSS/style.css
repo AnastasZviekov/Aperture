@@ -198,5 +198,32 @@ nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
+.leaf_section{
+    background-image: url("../images/bg_leaf.jpg");
+    background-size: cover ;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.leaf_section article {
+    margin-right: 87px;
+    max-width: 273px;
+}
 
 
+
+.leaf_section article h3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.leaf_section article p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
