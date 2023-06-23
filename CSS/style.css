@@ -533,7 +533,6 @@ nav ul li:last-of-type a {
 footer {
     padding: 100px 0 0;
     background-color: black;
-
 }
 
 footer .container {
@@ -840,7 +839,6 @@ a:hover {
 }
 .nav-but-wrap{
     position: relative;
-    display: inline-block;
     float: right;
     /*padding-left: 15px;
     padding-top: 15px;*/
@@ -1259,5 +1257,4 @@ body.light .switch-wrap p span:nth-child(1):before {
     opacity: 0.8;
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(255,255,255,.1);
-}
 }
